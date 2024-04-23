@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e289ab7d790bf437fa841a8d35bc5cc1, type: 3}
+  m_Name: Turret
+  m_EditorClassIdentifier: 
+  UnlockName: Rock
+  ScriptName: Turret
+  range: 5
+  timeBetweenShots: 1
+  damage: 10
+  health: 60
+  bullet: {fileID: 1100676592626358541, guid: 5e3f0ba2d7207433093b46e1259b8206, type: 3}
+  head: {fileID: 3648832981721547815, guid: ac631abd1535b404ebcbca2298917593, type: 3}
